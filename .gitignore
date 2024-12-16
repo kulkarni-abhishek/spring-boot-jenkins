@@ -1,0 +1,18 @@
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+generated*
+/out/
+**/build/
+/bin/
+/.classpath
+/.factorypath
+/.project
+/.apt_generated/
+
+### Gradle Output and Gradle Wrapper ###
+/.gradle/
+/.settings/
+/.run/
