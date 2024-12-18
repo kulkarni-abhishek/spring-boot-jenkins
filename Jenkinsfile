@@ -12,7 +12,7 @@ pipeline {
             }
         }
 
-        stage('Gradle unit test') {
+        stage('Gradle unit Test') {
             steps {
                 gradleTest()
             }
