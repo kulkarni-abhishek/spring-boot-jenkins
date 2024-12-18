@@ -12,9 +12,15 @@ pipeline {
             }
         }
 
-        stage('Unit test gradle') {
+        stage('Gradle unit test') {
             steps {
                 gradleTest()
+            }
+        }
+
+        stage('Gradle integration test') {
+            steps {
+                gradleIntTest()
             }
         }
     }
