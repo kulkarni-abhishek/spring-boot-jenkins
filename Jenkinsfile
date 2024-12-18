@@ -11,5 +11,11 @@ pipeline {
                 )
             }
         }
+
+        stage('Unit test gradle') {
+            steps {
+                gradleTest()
+            }
+        }
     }
 }
